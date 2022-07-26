@@ -1,6 +1,8 @@
 import React from 'react';
 import { Section } from 'components/Section';
-import { Information } from 'components/Information';
+import { Education } from 'components/page-sections/Education';
+import { Projects } from 'components/page-sections/Projects';
+import { Skills } from 'components/page-sections/Skills';
 
 const Home = () => (
   <main>
@@ -8,12 +10,12 @@ const Home = () => (
     <div className='flex flex-col'>
       {/* <span className='text-indigo-500 text-lg'>With Tailwind...</span>
       <span className='text-gray-200'>And react router</span> */}
-      <Section title='Work Experience' background='bg-yellow-200'>
+      <Section title='Projects' background='bg-yellow-200'>
         <h1>test</h1>
       </Section>
-      <Section title='Work Experience' titleBackground='bg-fuchsia-700'>
-        <Information />
-      </Section>
+      <Education />
+      <Projects />
+      <Skills />
     </div>
   </main>
 );

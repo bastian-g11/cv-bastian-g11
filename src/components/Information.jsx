@@ -1,8 +1,17 @@
-import { AiFillGithub } from 'react-icons/ai';
+import { BsXDiamondFill } from 'react-icons/bs';
 
-const Information = () => (
-  <div>
-    <AiFillGithub />
+// TODO: Add icon as a Prop
+const Information = ({ title, subTitle, lastItem }) => (
+  <div className='flex items-start gap-4'>
+    <div className='flex flex-col items-center mt-2'>
+      <BsXDiamondFill className='text-4xl text-indigo-500' />
+      {!lastItem && <div className='border-l-2 border-gray-500 h-8 mt-2' />}
+    </div>
+    <div>
+      <h1 className='text-lg font-bold'>{title}</h1>
+      <hr className='border-gray-500' />
+      <p className='text-sm text-gray-500'>{subTitle}</p>
+    </div>
   </div>
 );
 
