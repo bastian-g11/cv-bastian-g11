@@ -1,17 +1,25 @@
 import { Section } from 'components/Section';
-import { Information } from 'components/Information';
+import { TimeLineItem } from 'components/TimeLineItem';
 
 const Education = () => (
   <Section title='Educational History' titleBackground='bg-violet'>
-    <Information
+    <TimeLineItem
+      icon='diamond'
+      iconColor='purple'
       title='Software Engineering'
       subTitle='University of Antioquia | Aug 2017 - Present'
+      addTimeLine
     />
-    <Information
+    <TimeLineItem
+      icon='diamond'
+      iconColor='purple'
       title='JavaScript Bootcamp'
       subTitle='Astound Commerce | Oct 2021 - Nov 2021'
+      addTimeLine
     />
-    <Information
+    <TimeLineItem
+      icon='diamond'
+      iconColor='purple'
       title='High School'
       subTitle='Institución Educativa PBRO Luis Rodolfo Gómez Ramírez | Jan 2010 - Dec 2016'
       lastItem='true'

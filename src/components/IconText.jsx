@@ -1,9 +1,9 @@
-import { BsXDiamondFill } from 'react-icons/bs';
+import { Icon } from 'components/Icon';
 
 // TODO: Make icon a parameter
-const IconText = ({ text }) => (
+const IconText = ({ icon, iconColor, text }) => (
   <div className='flex-container'>
-    <BsXDiamondFill className='icon-text' />
+    <Icon id={icon} color={iconColor} />
     <p className='info-title'>{text}</p>
   </div>
 );

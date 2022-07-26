@@ -17,6 +17,14 @@ p {
   @apply text-sm text-light-gray;
 }
 
-.icon-text {
-  @apply text-4xl text-violet;
+.icon {
+  @apply text-4xl;
+}
+
+.icon-violet {
+  @apply text-violet;
+}
+
+.icon-purple {
+  @apply text-main-purple;
 }

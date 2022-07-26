@@ -1,9 +1,8 @@
-import { BsXDiamondFill } from 'react-icons/bs';
+import { Icon } from 'components/Icon';
 
-// TODO: Add icon as a Prop
-const Project = ({ title, description, link }) => (
+const Project = ({ icon, iconColor, title, description, link }) => (
   <div className='flex-container'>
-    <BsXDiamondFill className='icon-text' />
+    <Icon id={icon} color={iconColor} />
     <h1>{title}</h1>
     <p>{description}</p>
     <a className='info-title' href={link}>
