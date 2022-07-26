@@ -4,7 +4,7 @@ const Section = ({
   background = 'bg-white',
   children,
 }) => (
-  <div className={`py-4 flex flex-col items-center ${background}`}>
+  <div className={`flex-container py-4 ${background}`}>
     <div className={`w-full ${titleBackground}`}>
       <h1 className='text-center text-white font-bold text-xl'>{title}</h1>
     </div>

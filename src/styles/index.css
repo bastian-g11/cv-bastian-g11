@@ -5,7 +5,18 @@
 h1 {
   @apply text-lg font-bold;
 }
+p {
+  @apply text-dark-purple;
+}
+
+.flex-container {
+  @apply flex flex-col items-center;
+}
 
 .info-title {
   @apply text-sm text-light-gray;
+}
+
+.icon-text {
+  @apply text-4xl text-violet;
 }
