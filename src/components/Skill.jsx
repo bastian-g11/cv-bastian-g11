@@ -1,6 +1,6 @@
 const Skill = ({ title, percentage = 100 }) => (
   <div>
-    <h1 className='text-lg font-bold'>{title}</h1>
+    <h1>{title}</h1>
     <div className='flex flex-nowrap'>
       <svg viewBox='0 0 36 36'>
         <path
@@ -10,7 +10,10 @@ const Skill = ({ title, percentage = 100 }) => (
           a 15.9155 15.9155 0 0 1 0 -31.831'
         />
         <path
-          style={{ strokeDasharray: `${percentage}, 100` }}
+          style={{
+            strokeDasharray: `${percentage}, 100`,
+            strokeLinecap: 'round',
+          }}
           className='fill-transparent stroke-1 stroke-indigo-600'
           d='M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831

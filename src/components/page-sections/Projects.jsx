@@ -2,7 +2,7 @@ import { Section } from 'components/Section';
 import { Project } from 'components/Project';
 
 const Projects = () => (
-  <Section title='Educational History' background='bg-yellow-200'>
+  <Section title='Educational History' background='light-yellow'>
     <Project
       title='ToDo List App'
       description='Todo List App made using Node.js, Express,

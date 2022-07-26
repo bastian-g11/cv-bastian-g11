@@ -8,9 +8,9 @@ const Information = ({ title, subTitle, lastItem }) => (
       {!lastItem && <div className='border-l-2 border-gray-500 h-8 mt-2' />}
     </div>
     <div>
-      <h1 className='text-lg font-bold'>{title}</h1>
+      <h1>{title}</h1>
       <hr className='border-gray-500' />
-      <p className='text-sm text-gray-500'>{subTitle}</p>
+      <p className='info-title'>{subTitle}</p>
     </div>
   </div>
 );
