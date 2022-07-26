@@ -7,5 +7,5 @@ h1 {
 }
 
 .info-title {
-  @apply text-sm text-gray-500;
+  @apply text-sm text-light-gray;
 }

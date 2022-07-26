@@ -2,7 +2,7 @@ import { Section } from 'components/Section';
 import { Information } from 'components/Information';
 
 const Education = () => (
-  <Section title='Educational History' titleBackground='bg-fuchsia-700'>
+  <Section title='Educational History' titleBackground='bg-violet'>
     <Information
       title='Software Engineering'
       subTitle='University of Antioquia | Aug 2017 - Present'

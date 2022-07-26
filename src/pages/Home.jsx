@@ -6,11 +6,8 @@ import { Skills } from 'components/page-sections/Skills';
 
 const Home = () => (
   <main>
-    {/* <h1 className='text-3xl font-extrabold'>CV Starter Code</h1> */}
     <div className='flex flex-col'>
-      {/* <span className='text-indigo-500 text-lg'>With Tailwind...</span>
-      <span className='text-gray-200'>And react router</span> */}
-      <Section title='Projects' background='bg-yellow-200'>
+      <Section title='Projects' background='bg-light-yellow'>
         <h1>test</h1>
       </Section>
       <Education />

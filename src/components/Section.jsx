@@ -1,6 +1,6 @@
 const Section = ({
   title,
-  titleBackground = 'bg-violet-700 ',
+  titleBackground = 'bg-main-purple ',
   background = 'bg-white',
   children,
 }) => (
