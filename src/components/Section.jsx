@@ -1,14 +1,14 @@
+import { Title } from 'components/Title';
+
 const Section = ({
   title,
   titleBackground = 'bg-main-purple ',
   background = 'bg-white',
   children,
 }) => (
-  <div className='w-full'>
-    <div className={`${titleBackground}`}>
-      <h1 className='text-center text-white font-bold text-xl'>{title}</h1>
-    </div>
-    <div className={`flex-container ${background}`}>
+  <div className={`w-full pt-4 ${background}`}>
+    <Title text={title} background={titleBackground} />
+    <div className='flex-container'>
       <div>{children}</div>
     </div>
   </div>

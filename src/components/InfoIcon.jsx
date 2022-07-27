@@ -1,7 +1,7 @@
 import { Information } from 'components/Information';
 import { Icon } from 'components/Icon';
 
-const TimeLineItem = ({
+const InfoIcon = ({
   icon,
   iconColor,
   title,
@@ -17,4 +17,4 @@ const TimeLineItem = ({
   </div>
 );
 
-export { TimeLineItem };
+export { InfoIcon };

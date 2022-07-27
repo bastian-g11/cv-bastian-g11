@@ -5,8 +5,8 @@ const Skill = ({
   // fillColor = 'main-purple',
 }) => (
   <div>
-    <h1>{title}</h1>
-    <div className='flex flex-nowrap'>
+    <h1 className='text-center'>{title}</h1>
+    <div className='flex flex-nowrap h-20 w-20'>
       <svg viewBox='0 0 36 36'>
         <path
           // className={`fill-transparent stroke-${bgColor} stroke-2`}

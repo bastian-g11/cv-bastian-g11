@@ -1,23 +1,23 @@
 import { Section } from 'components/Section';
-import { TimeLineItem } from 'components/TimeLineItem';
+import { InfoIcon } from 'components/InfoIcon';
 
 const Education = () => (
   <Section title='Educational History' titleBackground='bg-violet'>
-    <TimeLineItem
+    <InfoIcon
       icon='diamond'
       iconColor='purple'
       title='Software Engineering'
       subTitle='University of Antioquia | Aug 2017 - Present'
       addTimeLine
     />
-    <TimeLineItem
+    <InfoIcon
       icon='diamond'
       iconColor='purple'
       title='JavaScript Bootcamp'
       subTitle='Astound Commerce | Oct 2021 - Nov 2021'
       addTimeLine
     />
-    <TimeLineItem
+    <InfoIcon
       icon='diamond'
       iconColor='purple'
       title='High School'
