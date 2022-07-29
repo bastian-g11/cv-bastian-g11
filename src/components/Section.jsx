@@ -6,11 +6,9 @@ const Section = ({
   background = 'bg-white',
   children,
 }) => (
-  <div className={`w-full pt-4 ${background}`}>
+  <div className={`flex-container w-full pt-4 ${background}`}>
     <Title text={title} background={titleBackground} />
-    <div className='flex-container  mx-4'>
-      <div>{children}</div>
-    </div>
+    <div className=' mx-4'>{children}</div>
   </div>
 );
 

@@ -1,8 +1,27 @@
 import { Section } from 'components/Section';
 import { Project } from 'components/Project';
+import Test from 'components/Test';
 
 const Projects = () => (
   <Section title='Educational History' background='bg-light-yellow'>
+    <Test
+      icon='diamond'
+      iconColor='purple'
+      title='ToDo List App'
+      description='Todo List App made using Node.js, Express,
+      EJS and MongoDB. This App was made in order to learn about Server Side Rendering (SSR)
+      using EJS and Mongo DB.'
+      link='https://lit-tor-42062.herokuapp.com/'
+    />
+    <Test
+      icon='linkedin'
+      iconColor='purple'
+      title='ToDo List App'
+      description='Todo List App made using Node.js, Express,
+      EJS and MongoDB. This App was made in order to learn about Server Side Rendering (SSR)
+      using EJS and Mongo DB.'
+      link='https://lit-tor-42062.herokuapp.com/'
+    />
     <Project
       icon='diamond'
       iconColor='purple'

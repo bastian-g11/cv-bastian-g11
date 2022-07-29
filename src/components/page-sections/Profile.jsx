@@ -3,14 +3,18 @@ import { ProfilePicture } from 'components/ProfilePicture';
 import { Title } from 'components/Title';
 
 const Profile = () => (
-  <div className='flex-container'>
-    <div className='flex content-around'>
+  <div>
+    <div className='flex space-x-0 bg-yellow-100'>
       <ProfilePicture />
-      <Title text='Web Developer' />
-    </div>
-    <div className='flex'>
-      <IconText icon='diamond' iconColor='purple' text='bastian-g11' />
-      <IconText icon='diamond' iconColor='purple' text='bastian-g11' />
+      <div>
+        <h1>Sebastián Gómez</h1>
+        <Title text='Web Developer' />
+        <p className='info-title'>sebastian.gomezr11@gmail.com</p>
+        <div className='flex'>
+          <IconText icon='diamond' iconColor='purple' text='bastian-g11' />
+          <IconText icon='diamond' iconColor='purple' text='bastian-g11' />
+        </div>
+      </div>
     </div>
     <p>
       Systems engineering student from the University of Antioquia, Colombia,
