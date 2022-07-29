@@ -8,7 +8,7 @@ const Section = ({
 }) => (
   <div className={`w-full pt-4 ${background}`}>
     <Title text={title} background={titleBackground} />
-    <div className='flex-container'>
+    <div className='flex-container  mx-4'>
       <div>{children}</div>
     </div>
   </div>
