@@ -1,20 +1,11 @@
-import { IconText } from 'components/IconText';
 import { ProfilePicture } from 'components/ProfilePicture';
-import { Title } from 'components/Title';
+import { Header } from 'components/Header';
 
 const Profile = () => (
-  <div>
-    <div className='flex space-x-0 bg-yellow-100'>
+  <div className='bg-light-yellow'>
+    <div className='flex md:block'>
       <ProfilePicture />
-      <div>
-        <h1>Sebastián Gómez</h1>
-        <Title text='Web Developer' />
-        <p className='info-title'>sebastian.gomezr11@gmail.com</p>
-        <div className='flex'>
-          <IconText icon='diamond' iconColor='purple' text='bastian-g11' />
-          <IconText icon='diamond' iconColor='purple' text='bastian-g11' />
-        </div>
-      </div>
+      <Header />
     </div>
     <p>
       Systems engineering student from the University of Antioquia, Colombia,

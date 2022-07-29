@@ -7,13 +7,9 @@ const Project = ({ icon, iconColor, title, description, link }) => (
         <Icon id={icon} color={iconColor} />
       </div>
       <div className='p-4 flex-container md:items-start'>
-        <div className='uppercase tracking-wide text-sm text-indigo-500 font-semibold'>
-          {title}
-        </div>
+        <h1>{title}</h1>
         {/* TODO: Make orientation a prop */}
-        <p className='mt-2 text-slate-600 text-center md:text-start'>
-          {description}
-        </p>
+        <p className='mt-2 text-center md:text-start'>{description}</p>
         <a className='info-title mt-2 hover:underline' href={link}>
           {link}
         </a>

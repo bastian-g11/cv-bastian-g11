@@ -3,10 +3,12 @@
 @tailwind utilities;
 
 h1 {
-  @apply text-lg font-bold;
+  /* @apply text-lg font-bold; */
+  @apply tracking-wide text-lg text-main-purple font-semibold;
 }
+
 p {
-  @apply text-dark-purple;
+  @apply text-dark-gray;
 }
 
 .flex-container {
