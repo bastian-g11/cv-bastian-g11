@@ -1,10 +1,9 @@
 import { Section } from 'components/Section';
-// import { Project } from 'components/Project';
-import Test from 'components/Test';
+import { Project } from 'components/Project';
 
 const Projects = () => (
   <Section title='Educational History' background='bg-light-yellow'>
-    <Test
+    <Project
       icon='diamond'
       iconColor='purple'
       title='ToDo List App'
@@ -13,7 +12,7 @@ const Projects = () => (
       using EJS and Mongo DB.'
       link='https://lit-tor-42062.herokuapp.com/'
     />
-    <Test
+    <Project
       icon='diamond'
       iconColor='violet'
       title='Newsletter SignUp Page'
@@ -22,7 +21,7 @@ const Projects = () => (
       link='https://arcane-inlet-95341.herokuapp.com/'
     />
 
-    <Test
+    <Project
       icon='diamond'
       iconColor='violet'
       title='Immersive Stories'
