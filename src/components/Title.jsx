@@ -1,5 +1,6 @@
 const Title = ({ text, background = 'bg-main-purple ' }) => (
-  <div className={`${background} h-9 w-full lg:w-fit`}>
+  // TODO: Add margin
+  <div className={`${background} h-8 w-full md:w-1/2 `}>
     <h1 className='text-center text-white font-bold text-xl'>{text}</h1>
   </div>
 );
