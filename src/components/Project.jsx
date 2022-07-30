@@ -1,7 +1,7 @@
 import { Icon } from 'components/Icon';
 
 const Project = ({ icon, iconColor, title, description, link }) => (
-  <div className='max-w-md my-2 mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-full'>
+  <div className='max-w-md my-2 mx-auto md:max-w-full'>
     <div className='md:flex'>
       <div className='md:shrink-0 w-fit mx-auto md:m-0 md:ml-8 md:self-center'>
         <Icon id={icon} color={iconColor} />

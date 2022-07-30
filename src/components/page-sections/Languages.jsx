@@ -2,7 +2,11 @@ import { Section } from 'components/Section';
 import { InfoIcon } from 'components/InfoIcon';
 
 const Languages = () => (
-  <Section title='Languages' titleBackground='bg-violet'>
+  <Section
+    title='Languages'
+    titleBackground='bg-violet'
+    container='horizontal-section justify-center'
+  >
     <InfoIcon
       icon='language'
       iconColor='purple'
