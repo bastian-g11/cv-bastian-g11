@@ -33,3 +33,10 @@ p {
 .horizontal-section {
   @apply flex flex-wrap gap-x-4;
 }
+
+.skill-container svg circle {
+  @apply fill-transparent;
+  stroke-dasharray: 400;
+  stroke-linecap: round;
+  stroke-width: 0.5rem;
+}

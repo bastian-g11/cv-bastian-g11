@@ -3,6 +3,7 @@ import { FaGithub, FaVrCardboard, FaPaperPlane } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { IoLanguageOutline } from 'react-icons/io5';
 import { TbCertificate } from 'react-icons/tb';
+import { GiBearHead } from 'react-icons/gi';
 
 const Icon = ({ id = 'diamond', color = 'purple' }) => {
   const icons = {
@@ -14,6 +15,7 @@ const Icon = ({ id = 'diamond', color = 'purple' }) => {
     language: <IoLanguageOutline className={`icon icon-${color}`} />,
     certification: <TbCertificate className={`icon icon-${color}`} />,
     todo: <BsListCheck className={`icon icon-${color}`} />,
+    bear: <GiBearHead className='icon text-white' />,
   };
   return icons[id];
 };

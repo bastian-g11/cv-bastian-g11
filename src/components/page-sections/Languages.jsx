@@ -19,6 +19,7 @@ const Languages = () => (
       title='English'
       subTitle='Advanced (B2)'
     />
+
     <InfoIcon
       icon='language'
       iconColor='purple'

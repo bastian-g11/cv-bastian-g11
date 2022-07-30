@@ -1,41 +1,24 @@
-const Skill = ({
-  title,
-  percentage = 100,
-  // bgColor = 'medium-gray',
-  // fillColor = 'main-purple',
-}) => (
-  <div>
+const Skill = ({ title, percentage = '100' }) => (
+  <div className='skill-container w-32'>
     <h1 className='text-center'>{title}</h1>
-    <div className='flex flex-nowrap h-20 w-20'>
-      <svg viewBox='0 0 36 36'>
-        <path
-          // className={`fill-transparent stroke-${bgColor} stroke-2`}
-          className='fill-transparent stroke-gray-400 stroke-2'
-          d='M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831'
-        />
-        <path
-          style={{
-            strokeDasharray: `${percentage}, 100`,
-            strokeLinecap: 'round',
-          }}
-          // className={`fill-transparent stroke-1 stroke-${fillColor}`}
-          className='fill-transparent stroke-1 stroke-indigo-700'
-          d='M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831'
-        />
-        <text
-          className='text-sm'
-          x='50%'
-          y='50%'
-          style={{ dominantBaseline: 'middle', textAnchor: 'middle' }}
-        >
-          {percentage}%
-        </text>
-      </svg>
-    </div>
+    <svg viewBox='5 0 150 150'>
+      <circle className='stroke-light-gray' cx='80' cy='80' r='60' />=
+      <circle
+        className='stroke-main-purple'
+        style={{ strokeDashoffset: `calc(400 - (400 * ${percentage}) / 100)` }}
+        cx='80'
+        cy='80'
+        r='60'
+      />
+      <text
+        className='text-4xl flex self-center'
+        x='55%'
+        y='52%'
+        style={{ dominantBaseline: 'middle', textAnchor: 'middle' }}
+      >
+        {percentage}%
+      </text>
+    </svg>
   </div>
 );
 
