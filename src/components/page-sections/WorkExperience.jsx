@@ -22,7 +22,6 @@ const WorkExperience = () => (
       iconColor='purple'
       title='High School'
       subTitle='Institución Educativa PBRO Luis Rodolfo Gómez Ramírez | Jan 2010 - Dec 2016'
-      lastItem='true'
     />
   </Section>
 );
