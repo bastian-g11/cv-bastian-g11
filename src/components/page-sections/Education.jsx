@@ -1,25 +1,25 @@
 import { Section } from 'components/Section';
-import { InfoIcon } from 'components/InfoIcon';
+import { ListItem } from 'components/ListItem';
 
 const Education = () => (
   <Section title='Educational History' titleBackground='bg-violet'>
-    <InfoIcon
+    <ListItem
       icon='diamond'
-      iconColor='purple'
+      iconColor='violet'
       title='Software Engineering'
       subTitle='University of Antioquia | Aug 2017 - Present'
       addTimeLine
     />
-    <InfoIcon
+    <ListItem
       icon='diamond'
-      iconColor='purple'
+      iconColor='violet'
       title='JavaScript Bootcamp'
       subTitle='Astound Commerce | Oct 2021 - Nov 2021'
       addTimeLine
     />
-    <InfoIcon
+    <ListItem
       icon='diamond'
-      iconColor='purple'
+      iconColor='violet'
       title='High School'
       subTitle='Institución Educativa PBRO Luis Rodolfo Gómez Ramírez | Jan 2010 - Dec 2016'
     />

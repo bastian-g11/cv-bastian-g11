@@ -1,27 +1,34 @@
 import { Section } from 'components/Section';
-import { InfoIcon } from 'components/InfoIcon';
+import { ListItem } from 'components/ListItem';
 
 const WorkExperience = () => (
   <Section title='Work Experience' titleBackground='bg-violet'>
-    <InfoIcon
+    <ListItem
       icon='diamond'
       iconColor='purple'
-      title='Software Engineering'
-      subTitle='University of Antioquia | Aug 2017 - Present'
+      title='SFCC Developer'
+      subTitle='Astound Commerce | Jan 2022 - Present'
       addTimeLine
     />
-    <InfoIcon
+    <ListItem
       icon='diamond'
       iconColor='purple'
-      title='JavaScript Bootcamp'
-      subTitle='Astound Commerce | Oct 2021 - Nov 2021'
+      title='Mobile App Developer'
+      subTitle='Corantioquia - Piragua | Feb 2021 - Jul 2021'
       addTimeLine
     />
-    <InfoIcon
+    <ListItem
       icon='diamond'
       iconColor='purple'
-      title='High School'
-      subTitle='Institución Educativa PBRO Luis Rodolfo Gómez Ramírez | Jan 2010 - Dec 2016'
+      title='Unity 3D Developer'
+      subTitle='Ude@ - UdeAldeA | Jan 2020 - Aug 2020'
+      addTimeLine
+    />
+    <ListItem
+      icon='diamond'
+      iconColor='purple'
+      title='Videogames Development Tutor'
+      subTitle='University of Antioquia | May 2019 - Jul 2019'
     />
   </Section>
 );

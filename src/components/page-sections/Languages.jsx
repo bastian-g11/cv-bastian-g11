@@ -1,26 +1,26 @@
 import { Section } from 'components/Section';
-import { InfoIcon } from 'components/InfoIcon';
+import { ListItem } from 'components/ListItem';
 
 const Languages = () => (
   <Section
     title='Languages'
     titleBackground='bg-violet'
-    container='horizontal-section justify-center'
+    container='horizontal-container justify-center'
   >
-    <InfoIcon
+    <ListItem
       icon='language'
       iconColor='purple'
       title='Spanish'
       subTitle='Native'
     />
-    <InfoIcon
+    <ListItem
       icon='language'
       iconColor='purple'
       title='English'
       subTitle='Advanced (B2)'
     />
 
-    <InfoIcon
+    <ListItem
       icon='language'
       iconColor='purple'
       title='High School'

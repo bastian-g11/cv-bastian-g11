@@ -5,16 +5,17 @@ const Skill = ({ title, percentage = '100' }) => (
       <circle className='stroke-light-gray' cx='80' cy='80' r='60' />=
       <circle
         className='stroke-main-purple'
-        style={{ strokeDashoffset: `calc(400 - (400 * ${percentage}) / 100)` }}
+        strokeDashoffset={`calc(400 - (400 * ${percentage}) / 100)`}
         cx='80'
         cy='80'
         r='60'
       />
       <text
-        className='text-4xl'
+        className='text-4xl fill-dark-gray'
         x='55%'
         y='52%'
-        style={{ dominantBaseline: 'middle', textAnchor: 'middle' }}
+        dominantBaseline='middle'
+        textAnchor='middle'
       >
         {percentage}%
       </text>

@@ -14,6 +14,10 @@ p {
   @apply flex flex-col items-center;
 }
 
+.horizontal-container {
+  @apply flex flex-wrap gap-x-4;
+}
+
 .info-title {
   @apply text-sm text-light-gray;
 }
@@ -28,10 +32,6 @@ p {
 
 .icon-purple {
   @apply text-main-purple;
-}
-
-.horizontal-section {
-  @apply flex flex-wrap gap-x-4;
 }
 
 .skill-container svg circle {

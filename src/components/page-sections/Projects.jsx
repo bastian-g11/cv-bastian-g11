@@ -5,7 +5,7 @@ const Projects = () => (
   <Section title='Projects' background='bg-light-yellow'>
     <Project
       icon='todo'
-      iconColor='purple'
+      iconColor='violet'
       title='ToDo List App'
       description='Todo List App made using Node.js, Express,
       EJS and MongoDB. This App was made in order to learn about Server Side Rendering (SSR)
@@ -19,7 +19,7 @@ const Projects = () => (
       description='Newsletter sign up page made using Node.js,
        Express and MailChimp in order to store the users that wanted to subscribe to the newsletter'
       link='https://arcane-inlet-95341.herokuapp.com/'
-      orientation='right'
+      alignStart={false}
     />
 
     <Project

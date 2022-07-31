@@ -1,36 +1,36 @@
 import { Section } from 'components/Section';
-import { InfoIcon } from 'components/InfoIcon';
+import { ListItem } from 'components/ListItem';
 
 const Certifications = () => (
   <Section
     title='Certifications'
     titleBackground='bg-violet'
-    container='horizontal-section'
+    container='horizontal-container'
   >
     <div>
-      <InfoIcon
+      <ListItem
         icon='certification'
-        iconColor='purple'
+        iconColor='violet'
         title='Web Development Bootcamp'
         subTitle='Udemy'
       />
-      <InfoIcon
+      <ListItem
         icon='certification'
-        iconColor='purple'
+        iconColor='violet'
         title='Introduction to MongoDB'
         subTitle='Coursera'
       />
     </div>
     <div>
-      <InfoIcon
+      <ListItem
         icon='certification'
-        iconColor='purple'
+        iconColor='violet'
         title='IntegraTIC 2020'
         subTitle='University of Antioquia'
       />
-      <InfoIcon
+      <ListItem
         icon='certification'
-        iconColor='purple'
+        iconColor='violet'
         title='German Course #6'
         subTitle='University of Antioquia | Multilingua'
       />

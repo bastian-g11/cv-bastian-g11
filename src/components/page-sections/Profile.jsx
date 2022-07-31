@@ -2,7 +2,7 @@ import { ProfilePicture } from 'components/ProfilePicture';
 import { Header } from 'components/Header';
 
 const Description = () => (
-  <p className='text-center mx-4 md:mx-32 mt-4'>
+  <p className='text-center mt-4 mx-4 md:mx-32'>
     Systems engineering student from the University of Antioquia, Colombia,
     specialized in software engineering. I am a friendly and open-minded person
     and it is easy for me to get along with different types of people. I am good

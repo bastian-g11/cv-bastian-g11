@@ -4,8 +4,8 @@ import { Skill } from 'components/Skill';
 const Skills = () => (
   <Section
     title='Skills'
-    titleBackground='bg-violet'
-    container='horizontal-section justify-center lg:mx-80'
+    background='bg-light-yellow'
+    container='horizontal-container justify-center lg:mx-80'
   >
     <Skill title='JavaScript' percentage='80' />
     <Skill title='Node.js' percentage='70' />
