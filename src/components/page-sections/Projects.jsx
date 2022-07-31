@@ -19,6 +19,7 @@ const Projects = () => (
       description='Newsletter sign up page made using Node.js,
        Express and MailChimp in order to store the users that wanted to subscribe to the newsletter'
       link='https://arcane-inlet-95341.herokuapp.com/'
+      orientation='right'
     />
 
     <Project

@@ -1,22 +1,36 @@
 import { Icon } from 'components/Icon';
 
-const Project = ({ icon, iconColor, title, description, link }) => (
+const ProjectIcon = ({ icon, color }) => (
+  <div className='md:shrink-0 w-fit mx-auto md:mx-4 md:self-center'>
+    <Icon id={icon} color={color} />
+  </div>
+);
+
+const Project = ({
+  icon,
+  iconColor,
+  title,
+  description,
+  link,
+  orientation = 'start',
+}) => (
   <div className='max-w-md my-2 mx-auto md:max-w-full'>
     <div className='md:flex'>
-      <div className='md:shrink-0 w-fit mx-auto md:m-0 md:ml-8 md:self-center'>
-        <Icon id={icon} color={iconColor} />
-      </div>
-      <div className='p-4 flex-container md:items-start'>
+      {orientation === 'start' && <ProjectIcon icon={icon} color={iconColor} />}
+      <div
+        className={`p-4 flex-container items-start ${
+          orientation === 'start' ? 'md:items-start' : 'md:items-end'
+        }`}
+      >
         <h1>{title}</h1>
-        {/* TODO: Make orientation a prop */}
-        <p className='mt-2 text-center md:text-start'>{description}</p>
+        <p className={`mt-2 text-center md:text-${orientation}`}>
+          {description}
+        </p>
         <a className='info-title mt-2 hover:underline' href={link}>
           {link}
         </a>
       </div>
-      {/* <div className='md:shrink-0 w-fit mx-auto md:ml-8 md:self-center'>
-        <Icon id={icon} color={iconColor} />
-      </div> */}
+      {orientation === 'right' && <ProjectIcon icon={icon} color={iconColor} />}
     </div>
   </div>
 );

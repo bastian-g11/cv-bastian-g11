@@ -11,7 +11,7 @@ const Skill = ({ title, percentage = '100' }) => (
         r='60'
       />
       <text
-        className='text-4xl flex self-center'
+        className='text-4xl'
         x='55%'
         y='52%'
         style={{ dominantBaseline: 'middle', textAnchor: 'middle' }}

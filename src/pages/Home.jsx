@@ -12,14 +12,14 @@ const Home = () => (
     <div className='flex-container'>
       <Profile />
       <div className='w-full md:flex'>
-        <Education />
         <WorkExperience />
+        <Education />
       </div>
+      <Projects />
       <div className='w-full lg:flex'>
         <Languages />
         <Certifications />
       </div>
-      <Projects />
       <Skills />
     </div>
   </main>
