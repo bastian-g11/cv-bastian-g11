@@ -2,7 +2,7 @@ import { IconText } from 'components/IconText';
 import { Title } from 'components/Title';
 
 const Header = () => (
-  <div className='w-full flex-container'>
+  <div className='w-full vertical-container'>
     <h1>Sebastián Gómez Ramírez</h1>
     <Title text='Web Developer' />
     <p className='info-title'>sebastian.gomezr11@gmail.com</p>

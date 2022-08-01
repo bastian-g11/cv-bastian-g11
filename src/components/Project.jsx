@@ -24,13 +24,13 @@ const Project = ({
           <ProjectIcon icon={icon} color={iconColor} />
         )}
         <div
-          className={`p-4 flex-container items-start ${
+          className={`p-4 vertical-container ${
             alignStart ? 'md:items-start' : 'md:items-end'
           }`}
         >
           <h1>{title}</h1>
           <p
-            className={`mt-2 text-center items-start ${
+            className={`mt-2 text-center ${
               alignStart ? 'md:text-start' : 'md:text-right'
             }`}
           >

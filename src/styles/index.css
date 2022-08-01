@@ -3,23 +3,23 @@
 @tailwind utilities;
 
 h1 {
-  @apply tracking-wide text-lg text-main-purple font-semibold;
+  @apply text-lg text-main-purple font-semibold tracking-wide;
 }
 
 p {
-  @apply text-dark-gray;
+  @apply text-base text-dark-gray;
 }
 
-.flex-container {
+.info-title {
+  @apply text-sm text-light-gray;
+}
+
+.vertical-container {
   @apply flex flex-col items-center;
 }
 
 .horizontal-container {
   @apply flex flex-wrap gap-x-4;
-}
-
-.info-title {
-  @apply text-sm text-light-gray;
 }
 
 .icon {
@@ -32,6 +32,10 @@ p {
 
 .icon-purple {
   @apply text-main-purple;
+}
+
+.icon-white {
+  @apply text-white;
 }
 
 .skill-container svg circle {

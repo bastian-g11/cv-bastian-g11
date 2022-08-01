@@ -9,7 +9,7 @@ import { WorkExperience } from 'components/page-sections/WorkExperience';
 
 const Home = () => (
   <main>
-    <div className='flex-container'>
+    <div>
       <Profile />
       <div className='w-full md:flex'>
         <WorkExperience />
