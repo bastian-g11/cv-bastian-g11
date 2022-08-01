@@ -28,7 +28,8 @@ const Projects = () => (
       title='Immersive Stories'
       description='Every person is a world and has something to share. The objective of this project was to use
        Virtual Reality to share the untold stories of the citizens of Medellín.'
-      link='https://tinyurl.com/57p97kh7 | https://tinyurl.com/5n7ca8a5'
+      link='https://tinyurl.com/57p97kh7'
+      link2='https://tinyurl.com/5n7ca8a5'
     />
   </Section>
 );

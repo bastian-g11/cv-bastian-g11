@@ -13,6 +13,7 @@ const Project = ({
   title,
   description,
   link,
+  link2,
   alignStart = true,
 }) => {
   const { screenSize } = useScreenSize();
@@ -36,9 +37,24 @@ const Project = ({
           >
             {description}
           </p>
-          <a className='info-title mt-2 hover:underline' href={link}>
+          <a
+            className='info-title mt-2 hover:underline'
+            target='_blank'
+            rel='noopener noreferrer'
+            href={link}
+          >
             {link}
           </a>
+          {link2 && (
+            <a
+              className='info-title mt-2 hover:underline'
+              target='_blank'
+              rel='noopener noreferrer'
+              href={link}
+            >
+              {link}
+            </a>
+          )}
         </div>
         {screenSize.width > 768 && !alignStart && (
           <ProjectIcon icon={icon} color={iconColor} />

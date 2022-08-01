@@ -13,7 +13,7 @@ const Description = () => (
 );
 
 const Profile = () => (
-  <div className='bg-light-yellow'>
+  <div className='bg-light-yellow pb-8'>
     <div className='flex md:block'>
       <ProfilePicture />
       <Header />

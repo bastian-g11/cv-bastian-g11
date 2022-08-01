@@ -7,7 +7,7 @@ const Section = ({
   children,
   container = 'block',
 }) => (
-  <div className={`vertical-container w-full pt-8 pb-2 ${background}`}>
+  <div className={`vertical-container w-full py-8 ${background}`}>
     <Title text={title} background={titleBackground} />
     <div className={`mx-4 ${container}`}>{children}</div>
   </div>

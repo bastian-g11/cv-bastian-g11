@@ -7,10 +7,18 @@ const Header = () => (
     <Title text='Web Developer' />
     <p className='info-title'>sebastian.gomezr11@gmail.com</p>
     <div className='flex'>
-      <a href='https://github.com/bastian-g11'>
+      <a
+        target='_blank'
+        rel='noopener noreferrer'
+        href='https://github.com/bastian-g11'
+      >
         <IconText icon='github' iconColor='purple' text='bastian-g11' />
       </a>
-      <a href='https://www.linkedin.com/in/bastian-g11/'>
+      <a
+        target='_blank'
+        rel='noopener noreferrer'
+        href='https://www.linkedin.com/in/bastian-g11/'
+      >
         <IconText icon='linkedin' iconColor='purple' text='bastian-g11' />
       </a>
     </div>

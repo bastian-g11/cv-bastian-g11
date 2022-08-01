@@ -23,7 +23,7 @@ const Languages = () => (
     <ListItem
       icon='language'
       iconColor='purple'
-      title='High School'
+      title='German'
       subTitle='Intermediate (B1)'
     />
   </Section>
