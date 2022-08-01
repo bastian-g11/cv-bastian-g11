@@ -2,8 +2,8 @@ import { Icon } from 'components/Icon';
 import { useScreenSize } from 'hooks/useScreenSize';
 
 const ProjectIcon = ({ icon, color }) => (
-  <div className='md:shrink-0 w-fit mx-auto md:mx-4 md:self-center'>
-    <Icon id={icon} color={color} />
+  <div className='md:shrink-0 w-fit mx-auto md:mx-0 md:self-center'>
+    <Icon id={icon} props={{ color }} />
   </div>
 );
 
@@ -19,7 +19,7 @@ const Project = ({
 
   return (
     <div className='max-w-md my-2 mx-auto md:max-w-full'>
-      <div className='md:flex'>
+      <div className='md:flex justify-end'>
         {(screenSize.width < 768 || alignStart) && (
           <ProjectIcon icon={icon} color={iconColor} />
         )}

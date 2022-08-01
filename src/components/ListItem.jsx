@@ -10,7 +10,7 @@ const ListItem = ({
 }) => (
   <div className='flex gap-4'>
     <div className='vertical-container mt-2'>
-      <Icon id={icon} color={iconColor} />
+      <Icon id={icon} props={{ color: iconColor }} />
       {addTimeLine && (
         <div className='border-l-2 border-medium-gray h-8 mt-2' />
       )}
