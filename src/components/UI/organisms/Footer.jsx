@@ -1,4 +1,4 @@
-import { Icon } from 'components/Icon';
+import { Icon } from 'components/UI/atoms/Icon';
 
 const Footer = () => (
   <footer className='horizontal-container justify-center items-center bg-gradient-to-b  from-main-purple via-violet to-violet p-3 text-white'>

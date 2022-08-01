@@ -1,5 +1,5 @@
-import { ProfilePicture } from 'components/ProfilePicture';
-import { Header } from 'components/Header';
+import { ProfilePicture } from 'components/UI/molecules/ProfilePicture';
+import { Header } from 'components/UI/molecules/Header';
 
 const Description = () => (
   <p className='text-center mt-4 mx-4 md:mx-32'>

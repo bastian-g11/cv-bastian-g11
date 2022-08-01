@@ -1,11 +1,11 @@
 import React from 'react';
-import { Profile } from 'components/page-sections/Profile';
-import { Education } from 'components/page-sections/Education';
-import { Projects } from 'components/page-sections/Projects';
-import { Languages } from 'components/page-sections/Languages';
-import { Certifications } from 'components/page-sections/Certifications';
-import { Skills } from 'components/page-sections/Skills';
-import { WorkExperience } from 'components/page-sections/WorkExperience';
+import { Profile } from 'components/UI/organisms/Profile';
+import { Education } from 'components/UI/organisms/Education';
+import { Projects } from 'components/UI/organisms/Projects';
+import { Languages } from 'components/UI/organisms/Languages';
+import { Certifications } from 'components/UI/organisms/Certifications';
+import { Skills } from 'components/UI/organisms/Skills';
+import { WorkExperience } from 'components/UI/organisms/WorkExperience';
 
 const Home = () => (
   <main>

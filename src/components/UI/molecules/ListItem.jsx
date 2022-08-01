@@ -1,5 +1,5 @@
-import { Information } from 'components/Information';
-import { Icon } from 'components/Icon';
+import { Information } from 'components/UI/molecules/Information';
+import { Icon } from 'components/UI/atoms/Icon';
 
 const ListItem = ({
   icon,

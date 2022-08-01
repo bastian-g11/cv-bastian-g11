@@ -1,4 +1,4 @@
-import { Icon } from 'components/Icon';
+import { Icon } from 'components/UI/atoms/Icon';
 import { useScreenSize } from 'hooks/useScreenSize';
 
 const ProjectIcon = ({ icon, color }) => (

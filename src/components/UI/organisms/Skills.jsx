@@ -1,5 +1,5 @@
-import { Section } from 'components/Section';
-import { Skill } from 'components/Skill';
+import { Section } from 'components/UI/molecules/Section';
+import { Skill } from 'components/UI/molecules/Skill';
 
 const Skills = () => (
   <Section

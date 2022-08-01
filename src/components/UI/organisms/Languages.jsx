@@ -1,5 +1,5 @@
-import { Section } from 'components/Section';
-import { ListItem } from 'components/ListItem';
+import { Section } from 'components/UI/molecules/Section';
+import { ListItem } from 'components/UI/molecules/ListItem';
 
 const Languages = () => (
   <Section

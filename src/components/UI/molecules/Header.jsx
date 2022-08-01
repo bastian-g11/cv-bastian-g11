@@ -1,5 +1,5 @@
-import { IconText } from 'components/IconText';
-import { Title } from 'components/Title';
+import { Title } from 'components/UI/atoms/Title';
+import { IconText } from 'components/UI/molecules/IconText';
 
 const Header = () => (
   <div className='w-full vertical-container'>

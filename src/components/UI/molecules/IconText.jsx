@@ -1,4 +1,4 @@
-import { Icon } from 'components/Icon';
+import { Icon } from 'components/UI/atoms/Icon';
 
 const IconText = ({ icon, iconColor, text }) => (
   <div className='vertical-container m-2'>

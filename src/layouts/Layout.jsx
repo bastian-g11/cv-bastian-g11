@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import { Footer } from 'components/Footer';
+import { Footer } from 'components/UI/organisms/Footer';
 
 const Layout = () => (
   <main className='h-screen flex flex-col'>

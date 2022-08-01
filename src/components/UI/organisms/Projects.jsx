@@ -1,5 +1,5 @@
-import { Section } from 'components/Section';
-import { Project } from 'components/Project';
+import { Section } from 'components/UI/molecules/Section';
+import { Project } from 'components/UI/molecules/Project';
 
 const Projects = () => (
   <Section title='Projects' background='bg-light-yellow'>
