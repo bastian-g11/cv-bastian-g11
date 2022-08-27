@@ -14,10 +14,8 @@ const Description = () => (
 
 const Profile = () => (
   <div className='bg-light-yellow py-8'>
-    <div className='flex md:block'>
-      <ProfilePicture />
-      <Header />
-    </div>
+    <ProfilePicture />
+    <Header />
     <Description />
   </div>
 );
